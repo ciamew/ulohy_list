@@ -4,7 +4,7 @@
 
 zoznam = [12, 'x', None, 3.14, [], range(5), '123']
 def vypis_typy(zoznam):
-    for i in range(7): #cislo v rage sa meni podla toho kolko prvkov je v zozname
+    for i in range(7): #cislo v range sa meni podla toho kolko prvkov je v zozname
         prvok = (zoznam[i])
         # print(prvok)
         if type(prvok) == int or type(prvok) == float:
